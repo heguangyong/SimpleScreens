@@ -137,7 +137,7 @@ along with this software (see the LICENSE.md file). If not, see
                     <form-single name="CloneAcctgSettingsForm" transition="initPartyAccountingConfiguration">
                         <field name="partyId"><default-field><hidden/></default-field></field>
                         <field name="baseCurrencyUomId"><default-field title="Base Currency">
-                            <drop-down no-current-selected-key="USD"><entity-options key="${uomId}" text="${uomId} - ${description}">
+                            <drop-down no-current-selected-key="CNY"><entity-options key="${uomId}" text="${uomId} - ${description}">
                                 <entity-find entity-name="moqui.basic.Uom">
                                     <econdition field-name="uomTypeEnumId" value="UT_CURRENCY_MEASURE"/>
                                     <order-by field-name="description"/></entity-find></entity-options></drop-down>
