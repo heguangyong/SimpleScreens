@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<entity-facade-xml type="seed">
+    <moqui.basic.LocalizedMessage original="New Person" locale="zh" localized="新增人员"/>
+    <moqui.basic.LocalizedMessage original="New Person Customer" locale="zh" localized="新增个人客户"/>
+    <moqui.basic.LocalizedMessage original="New Employee" locale="zh" localized="新增雇员"/>
+    <moqui.basic.LocalizedMessage original="New Organization" locale="zh" localized="新增组织"/>
+    <moqui.basic.LocalizedMessage original="New Sales Account (Organization Customer)" locale="zh" localized="新增销售账户（组织客户）"/>
+    <moqui.basic.LocalizedMessage original="New Sales Contact" locale="zh" localized="新增销售联系人"/>
+
+    <moqui.basic.LocalizedMessage original="Party" locale="zh" localized="当事人"/>
+    <moqui.basic.LocalizedMessage original="Calendar" locale="zh" localized="日历"/>
+    <moqui.basic.LocalizedMessage original="Emails" locale="zh" localized="电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Related" locale="zh" localized="相关"/>
+    <moqui.basic.LocalizedMessage original="Agreements" locale="zh" localized="协议"/>
+    <moqui.basic.LocalizedMessage original="Financial Info" locale="zh" localized="财务信息"/>
+    <moqui.basic.LocalizedMessage original="Convert To Organization" locale="zh" localized="转为组织"/>
+    <moqui.basic.LocalizedMessage original="Update Person" locale="zh" localized="更新个人"/>
+    <moqui.basic.LocalizedMessage original="Customer" locale="zh" localized="客户"/>
+
+    <moqui.basic.LocalizedMessage original="Sales Account Contacts" locale="zh" localized="销售账户联系人"/>
+    <moqui.basic.LocalizedMessage original="Contact of Sale Accounts" locale="zh" localized="联系的销售账户"/>
+    <moqui.basic.LocalizedMessage original="Add to Sale Account" locale="zh" localized="添加销售账户"/>
+    <moqui.basic.LocalizedMessage original="Add Contact" locale="zh" localized="添加联系人"/>
+    <moqui.basic.LocalizedMessage original="New Contact" locale="zh" localized="新增联系人"/>
+    <moqui.basic.LocalizedMessage original="Customer Data" locale="zh" localized="客户数据"/>
+    <moqui.basic.LocalizedMessage original="Customers" locale="zh" localized="客户"/>
+    <moqui.basic.LocalizedMessage original="POPC ERP" locale="zh" localized="电商ERP"/>
+
+    <moqui.basic.LocalizedMessage original="Find Customer" locale="zh" localized="查找客户"/>
+    <moqui.basic.LocalizedMessage original="Quick Lookup" locale="zh" localized="快速查找"/>
+    <moqui.basic.LocalizedMessage original="Quick Search" locale="zh" localized="快速搜索"/>
+    <moqui.basic.LocalizedMessage original="Find Request" locale="zh" localized="查找请求"/>
+    <moqui.basic.LocalizedMessage original="Requests" locale="zh" localized="请求"/>
+    <moqui.basic.LocalizedMessage original="Suppliers" locale="zh" localized="供应商"/>
+    <moqui.basic.LocalizedMessage original="Find Supplier" locale="zh" localized="查找供应商"/>
+    <moqui.basic.LocalizedMessage original="Find Order" locale="zh" localized="查找订单"/>
+    <moqui.basic.LocalizedMessage original="Orders" locale="zh" localized="查找订单"/>
+    <moqui.basic.LocalizedMessage original="Shipping" locale="zh" localized="运输"/>
+    <moqui.basic.LocalizedMessage original="Shipments" locale="zh" localized="货件"/>
+    <moqui.basic.LocalizedMessage original="Find Shipments" locale="zh" localized="查找货件"/>
+    <moqui.basic.LocalizedMessage original="Returns" locale="zh" localized="退货"/>
+    <moqui.basic.LocalizedMessage original="Assets" locale="zh" localized="资产"/>
+    <moqui.basic.LocalizedMessage original="Manufacturing" locale="zh" localized="生产制造"/>
+    <moqui.basic.LocalizedMessage original="Wiki/Content" locale="zh" localized="维基内容"/>
+    <moqui.basic.LocalizedMessage original="Wiki Spaces" locale="zh" localized="维基空间"/>
+    <moqui.basic.LocalizedMessage original="Catalog" locale="zh" localized="产品目录"/>
+    <moqui.basic.LocalizedMessage original="Facilities" locale="zh" localized="设施"/>
+    <moqui.basic.LocalizedMessage original="Find Facility" locale="zh" localized="查找设施"/>
+    <moqui.basic.LocalizedMessage original="Stores" locale="zh" localized="店铺"/>
+    <moqui.basic.LocalizedMessage original="Find Product Store" locale="zh" localized="查找产品店铺"/>
+    <moqui.basic.LocalizedMessage original="Gateways" locale="zh" localized="网关"/>
+    <moqui.basic.LocalizedMessage original="Payment" locale="zh" localized="付款"/>
+    <moqui.basic.LocalizedMessage original="Payment Gateways" locale="zh" localized="支付网关"/>
+    <moqui.basic.LocalizedMessage original="Shipping Gateways" locale="zh" localized="运输网关"/>
+    <moqui.basic.LocalizedMessage original="Custom Reports" locale="zh" localized="客户报表"/>
+    <moqui.basic.LocalizedMessage original="Report Builder" locale="zh" localized="报表生成器"/>
+
+    <moqui.basic.LocalizedMessage original="New Person Supplier" locale="zh" localized="新增个人供应商"/>
+    <moqui.basic.LocalizedMessage original="New Organization Supplier" locale="zh" localized="新增组织供应商"/>
+    <moqui.basic.LocalizedMessage original="Parent Sales Account" locale="zh" localized="父销售账户"/>
+    <moqui.basic.LocalizedMessage original="Add Parent Account" locale="zh" localized="添加父账户"/>
+    <moqui.basic.LocalizedMessage original="Parent Account" locale="zh" localized="父账户"/>
+    <moqui.basic.LocalizedMessage original="Child Sales Accounts" locale="zh" localized="子销售账户"/>
+    <moqui.basic.LocalizedMessage original="Add Child Account" locale="zh" localized="添加子账户"/>
+    <moqui.basic.LocalizedMessage original="Child Account" locale="zh" localized="子账户"/>
+    <moqui.basic.LocalizedMessage original="Save" locale="zh" localized="保存"/>
+
+    <moqui.basic.LocalizedMessage original="Unpaid Receivables" locale="zh" localized="未付应收账款"/>
+    <moqui.basic.LocalizedMessage original="Unapplied Incoming Payments" locale="zh" localized="未申请的收款"/>
+    <moqui.basic.LocalizedMessage original="Current Sales Orders" locale="zh" localized="当前销售订单"/>
+    <moqui.basic.LocalizedMessage original="Unpaid Payables" locale="zh" localized="未付应付款"/>
+    <moqui.basic.LocalizedMessage original="Unapplied Outgoing Payments" locale="zh" localized="未申请的付款"/>
+    <moqui.basic.LocalizedMessage original="Current Purchase Orders" locale="zh" localized="当前采购订单"/>
+    <moqui.basic.LocalizedMessage original="Recent Paid Receivables" locale="zh" localized="近期已付应收账款"/>
+    <moqui.basic.LocalizedMessage original="Recent Paid Payables" locale="zh" localized="近期已付应付账款"/>
+    <moqui.basic.LocalizedMessage original="Financial Summary for ${ec.resource.expand('PartyNameTemplate', null, partyDetail)}" locale="zh" localized="财务汇总 ${ec.resource.expand('PartyNameTemplate', null, partyDetail)}"/>
+    <moqui.basic.LocalizedMessage original="Completed Sales Orders" locale="zh" localized="完成销售订单"/>
+    <moqui.basic.LocalizedMessage original="All Sales Orders" locale="zh" localized="全部销售订单"/>
+    <moqui.basic.LocalizedMessage original="Completed Purchase Orders" locale="zh" localized="完成采购订单"/>
+    <moqui.basic.LocalizedMessage original="All Purchase Orders" locale="zh" localized="全部采购订单"/>
+    <moqui.basic.LocalizedMessage original="Booked Receivable Invoices" locale="zh" localized="记账应收发票"/>
+    <moqui.basic.LocalizedMessage original="All Receivable Invoices" locale="zh" localized="全部应收发票"/>
+    <moqui.basic.LocalizedMessage original="Booked Payable Invoices" locale="zh" localized="记账应付发票"/>
+    <moqui.basic.LocalizedMessage original="All Payable Invoices" locale="zh" localized="全部应付发票"/>
+    <moqui.basic.LocalizedMessage original="Received Incoming Payments" locale="zh" localized="收到收款"/>
+    <moqui.basic.LocalizedMessage original="All Incoming Payments" locale="zh" localized="全部收款"/>
+    <moqui.basic.LocalizedMessage original="Received Outgoing Payments" locale="zh" localized="收到付款"/>
+    <moqui.basic.LocalizedMessage original="All Outgoing Payments" locale="zh" localized="全部付款"/>
+    <moqui.basic.LocalizedMessage original="Invoice" locale="zh" localized="发票"/>
+    <moqui.basic.LocalizedMessage original="Order" locale="zh" localized="订单"/>
+    <moqui.basic.LocalizedMessage original="Their Invoice" locale="zh" localized="对方发票"/>
+    <moqui.basic.LocalizedMessage original="Invoice Date" locale="zh" localized="发票日期"/>
+    <moqui.basic.LocalizedMessage original="Due Date" locale="zh" localized="截止日期"/>
+    <moqui.basic.LocalizedMessage original="Unpaid" locale="zh" localized="未付"/>
+    <moqui.basic.LocalizedMessage original="Ref Num" locale="zh" localized="参考编号"/>
+    <moqui.basic.LocalizedMessage original="Effective Date" locale="zh" localized="生效日期"/>
+    <moqui.basic.LocalizedMessage original="Instrument" locale="zh" localized="工具"/>
+    <moqui.basic.LocalizedMessage original="Amount" locale="zh" localized="金额"/>
+    <moqui.basic.LocalizedMessage original="Unapplied" locale="zh" localized="未申请"/>
+    <moqui.basic.LocalizedMessage original="PO #" locale="zh" localized="采购订单 #"/>
+    <moqui.basic.LocalizedMessage original="Placed Date" locale="zh" localized="下单日期"/>
+    <moqui.basic.LocalizedMessage original="Ship Before" locale="zh" localized="发货前"/>
+    <moqui.basic.LocalizedMessage original="Facility" locale="zh" localized="设施"/>
+    <moqui.basic.LocalizedMessage original="Store" locale="zh" localized="店铺"/>
+    <moqui.basic.LocalizedMessage original="Vendor" locale="zh" localized="供应商"/>
+    <moqui.basic.LocalizedMessage original="SO #" locale="zh" localized="销售订单 #"/>
+    <moqui.basic.LocalizedMessage original="Their Order" locale="zh" localized="对方订单"/>
+    <moqui.basic.LocalizedMessage original="XLS Export" locale="zh" localized="XLS 导出"/>
+
+    <moqui.basic.LocalizedMessage original="Estimated Hours" locale="zh" localized="预估小时数"/>
+    <moqui.basic.LocalizedMessage original="Actual Hours" locale="zh" localized="实际小时数"/>
+    <moqui.basic.LocalizedMessage original="Client" locale="zh" localized="客户"/>
+    <moqui.basic.LocalizedMessage original="Edit Client" locale="zh" localized="编辑客户"/>
+    <moqui.basic.LocalizedMessage original="Edit Vendor" locale="zh" localized="编辑供应商"/>
+    <moqui.basic.LocalizedMessage original="Milestone" locale="zh" localized="里程碑"/>
+    <moqui.basic.LocalizedMessage original="Start Date" locale="zh" localized="开始日期"/>
+    <moqui.basic.LocalizedMessage original="End Date" locale="zh" localized="结束日期"/>
+    <moqui.basic.LocalizedMessage original="First" locale="zh" localized="姓"/>
+    <moqui.basic.LocalizedMessage original="Last" locale="zh" localized="名"/>
+    <moqui.basic.LocalizedMessage original="Expectation" locale="zh" localized="期望"/>
+    <moqui.basic.LocalizedMessage original="Position Class" locale="zh" localized="职位类别"/>
+    <moqui.basic.LocalizedMessage original="Manager" locale="zh" localized="经理"/>
+
+    <moqui.basic.LocalizedMessage original="First Name" locale="zh" localized="姓"/>
+    <moqui.basic.LocalizedMessage original="Last Name" locale="zh" localized="名"/>
+
+    <moqui.basic.LocalizedMessage original="HiveMind Admin" locale="zh" localized="项目管理"/>
+    <moqui.basic.LocalizedMessage original="Find Agreement" locale="zh" localized="查找协议"/>
+    <moqui.basic.LocalizedMessage original="Projects" locale="zh" localized="项目"/>
+    <moqui.basic.LocalizedMessage original="New Agreement" locale="zh" localized="新增协议"/>
+    <moqui.basic.LocalizedMessage original="Agreement ID" locale="zh" localized="协议 ID"/>
+    <moqui.basic.LocalizedMessage original="Valid From" locale="zh" localized="开始日期"/>
+    <moqui.basic.LocalizedMessage original="Valid Thru" locale="zh" localized="截止日期"/>
+    <moqui.basic.LocalizedMessage original="Tasks" locale="zh" localized="任务"/>
+
+    <moqui.basic.LocalizedMessage original="My Account" locale="zh" localized="我的帐户"/>
+    <moqui.basic.LocalizedMessage original="HiveMind PM" locale="zh" localized="项目执行"/>
+    <moqui.basic.LocalizedMessage original="Project" locale="zh" localized="项目"/>
+    <moqui.basic.LocalizedMessage original="Expectation Enum ID" locale="zh" localized="期望枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Empl Position Class ID" locale="zh" localized="雇员职位类别 ID"/>
+    <moqui.basic.LocalizedMessage original="Add Project Assignment" locale="zh" localized="添加项目分配"/>
+    <moqui.basic.LocalizedMessage original="Project Summary" locale="zh" localized="项目概要"/>
+
+    <moqui.basic.LocalizedMessage original="Add User Assignment" locale="zh" localized="添加用户分配"/>
+    <moqui.basic.LocalizedMessage original="Usernames" locale="zh" localized="用户名"/>
+    <moqui.basic.LocalizedMessage original="Org" locale="zh" localized="组织"/>
+    <moqui.basic.LocalizedMessage original="Milestones" locale="zh" localized="里程碑"/>
+    <moqui.basic.LocalizedMessage original="Time Entries" locale="zh" localized="时间子项"/>
+    <moqui.basic.LocalizedMessage original="Wiki Pages" locale="zh" localized="维基页面"/>
+    <moqui.basic.LocalizedMessage original="Progress" locale="zh" localized="进度"/>
+
+    <moqui.basic.LocalizedMessage original="My Open Tasks" locale="zh" localized="我的未完成任务"/>
+    <moqui.basic.LocalizedMessage original="My Open Requests" locale="zh" localized="我的未完成请求"/>
+    <moqui.basic.LocalizedMessage original="request" locale="zh" localized="请求"/>
+    <moqui.basic.LocalizedMessage original="Task" locale="zh" localized="任务"/>
+    <moqui.basic.LocalizedMessage original="Resolution" locale="zh" localized="解决"/>
+    <moqui.basic.LocalizedMessage original="My Projects" locale="zh" localized="我的项目"/>
+    <moqui.basic.LocalizedMessage original="My Milestones" locale="zh" localized="我的里程碑"/>
+    <moqui.basic.LocalizedMessage original="Find Task" locale="zh" localized="查找任务"/>
+    <moqui.basic.LocalizedMessage original="New Task" locale="zh" localized="新增任务"/>
+    <moqui.basic.LocalizedMessage original="New Request" locale="zh" localized="新增请求"/>
+    <moqui.basic.LocalizedMessage original="Pri" locale="zh" localized="优先级"/>
+    <moqui.basic.LocalizedMessage original="Due" locale="zh" localized="截止时间"/>
+    <moqui.basic.LocalizedMessage original="Est" locale="zh" localized="预估时间"/>
+    <moqui.basic.LocalizedMessage original="Rem" locale="zh" localized="剩余时间"/>
+    <moqui.basic.LocalizedMessage original="Act" locale="zh" localized="实际时间"/>
+
+    <moqui.basic.LocalizedMessage original="Project Milestones" locale="zh" localized="项目里程碑"/>
+    <moqui.basic.LocalizedMessage original="Summary for Milestone &quot;${milestoneWorkEffort.workEffortName}&quot; - ${milestoneWorkEffortId}" locale="zh" localized="里程碑概要 &quot;${milestoneWorkEffort.workEffortName}&quot; - ${milestoneWorkEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Inactive Tasks" locale="zh" localized="未激活的任务"/>
+    <moqui.basic.LocalizedMessage original="Active Tasks" locale="zh" localized="激活的任务"/>
+    <moqui.basic.LocalizedMessage original="Completed Tasks" locale="zh" localized="已完成的任务"/>
+    <moqui.basic.LocalizedMessage original="Estimated" locale="zh" localized="预估的"/>
+    <moqui.basic.LocalizedMessage original="Actual" locale="zh" localized="实际的"/>
+    <moqui.basic.LocalizedMessage original="Resume" locale="zh" localized="恢复"/>
+    <moqui.basic.LocalizedMessage original="Milestone Summary" locale="zh" localized="里程碑概要"/>
+    <moqui.basic.LocalizedMessage original="Create Milestone" locale="zh" localized="创建里程碑"/>
+    <moqui.basic.LocalizedMessage original="Summary" locale="zh" localized="概要"/>
+
+    <moqui.basic.LocalizedMessage original="Find Project" locale="zh" localized="查找项目"/>
+    <moqui.basic.LocalizedMessage original="New Project" locale="zh" localized="新增项目"/>
+    <moqui.basic.LocalizedMessage original="Organization Management" locale="zh" localized="组织管理"/>
+    <moqui.basic.LocalizedMessage original="Training" locale="zh" localized="培训"/>
+    <moqui.basic.LocalizedMessage original="IT Security" locale="zh" localized="IT 安全"/>
+    <moqui.basic.LocalizedMessage original="Marketing" locale="zh" localized="市场"/>
+    <moqui.basic.LocalizedMessage original="Product Development" locale="zh" localized="产品开发"/>
+    <moqui.basic.LocalizedMessage original="Product Fulfillment" locale="zh" localized="产品履行"/>
+
+    <moqui.basic.LocalizedMessage original="Rates" locale="zh" localized="费率"/>
+    <moqui.basic.LocalizedMessage original="Add Rate Amount" locale="zh" localized="添加费率金额"/>
+    <moqui.basic.LocalizedMessage original="Create Rate Amount" locale="zh" localized="创建费率金额"/>
+    <moqui.basic.LocalizedMessage original="Client Billing" locale="zh" localized="客户账单"/>
+    <moqui.basic.LocalizedMessage original="No Charge" locale="zh" localized="免费"/>
+    <moqui.basic.LocalizedMessage original="Worker/Vendor Payment" locale="zh" localized="工人/供应商付款"/>
+    <moqui.basic.LocalizedMessage original="Rate Amount" locale="zh" localized="费率金额"/>
+    <moqui.basic.LocalizedMessage original="Standard" locale="zh" localized="标准"/>
+    <moqui.basic.LocalizedMessage original="Min Wage Adj" locale="zh" localized="最低工资调整"/>
+    <moqui.basic.LocalizedMessage original="Paid Break STD" locale="zh" localized="带薪休假 STD"/>
+    <moqui.basic.LocalizedMessage original="Paid Break RRP" locale="zh" localized="带薪休息 RRP"/>
+    <moqui.basic.LocalizedMessage original="PTO - Vacation" locale="zh" localized="PTO - 长假"/>
+    <moqui.basic.LocalizedMessage original="PTO - Holiday" locale="zh" localized="PTO - 短假"/>
+    <moqui.basic.LocalizedMessage original="PTO - Sick" locale="zh" localized="PTO - 生病"/>
+    <moqui.basic.LocalizedMessage original="PTO - Other" locale="zh" localized="PTO - 其它"/>
+
+    <moqui.basic.LocalizedMessage original="Piece or Hourly" locale="zh" localized="计件或每小时"/>
+    <moqui.basic.LocalizedMessage original="Piece" locale="zh" localized="计件"/>
+    <moqui.basic.LocalizedMessage original="Piece plus Hourly" locale="zh" localized="计件加时薪"/>
+    <moqui.basic.LocalizedMessage original="Unpaid" locale="zh" localized="未付款"/>
+    <moqui.basic.LocalizedMessage original="Discounted" locale="zh" localized="打折"/>
+    <moqui.basic.LocalizedMessage original="On-site" locale="zh" localized="现场"/>
+    <moqui.basic.LocalizedMessage original="Shift - Evening" locale="zh" localized="轮班 - 晚上"/>
+    <moqui.basic.LocalizedMessage original="Shift - Night" locale="zh" localized="轮班 - 夜间"/>
+    <moqui.basic.LocalizedMessage original="Shift - Weekend" locale="zh" localized="轮班 - 周末"/>
+    <moqui.basic.LocalizedMessage original="Shift - Holiday" locale="zh" localized="轮班 - 假日"/>
+
+    <moqui.basic.LocalizedMessage original="Currency" locale="zh" localized="货币"/>
+    <moqui.basic.LocalizedMessage original="Thru" locale="zh" localized="至"/>
+    <moqui.basic.LocalizedMessage original="Wiki Space" locale="zh" localized="维基空间"/>
+    <moqui.basic.LocalizedMessage original="Teams" locale="zh" localized="团队"/>
+    <moqui.basic.LocalizedMessage original="Clients" locale="zh" localized="客户"/>
+    <moqui.basic.LocalizedMessage original="Vendors" locale="zh" localized="供应商"/>
+
+    <moqui.basic.LocalizedMessage original="Add Client" locale="zh" localized="添加客户"/>
+    <moqui.basic.LocalizedMessage original="Create Client" locale="zh" localized="创建客户"/>
+    <moqui.basic.LocalizedMessage original="Billing Information" locale="zh" localized="账单信息"/>
+    <moqui.basic.LocalizedMessage original="Where invoices are sent (Accounts Payable)" locale="zh" localized="发票寄送地址（应付账款）"/>
+    <moqui.basic.LocalizedMessage original="Edit Billing Info" locale="zh" localized="编辑账单信息"/>
+    <moqui.basic.LocalizedMessage original="New Rep User" locale="zh" localized="新代表用户"/>
+    <moqui.basic.LocalizedMessage original="Set Client (AP) Representative" locale="zh" localized="设置客户 (AP) 代表"/>
+    <moqui.basic.LocalizedMessage original="Payment Information" locale="zh" localized="付款信息"/>
+    <moqui.basic.LocalizedMessage original="Where payments are sent (Accounts Receivable)" locale="zh" localized="付款寄送地址（应收账款）"/>
+    <moqui.basic.LocalizedMessage original="Edit Payment Info" locale="zh" localized="编辑付款信息"/>
+    <moqui.basic.LocalizedMessage original="Make Vendor" locale="zh" localized="做为供应商"/>
+    <moqui.basic.LocalizedMessage original="Make Internal Org" locale="zh" localized="做为内部组织"/>
+    <moqui.basic.LocalizedMessage original="To Name" locale="zh" localized="对方名称"/>
+    <moqui.basic.LocalizedMessage original="Attention" locale="zh" localized="注意事项"/>
+    <moqui.basic.LocalizedMessage original="Project Name" locale="zh" localized="项目名称"/>
+    <moqui.basic.LocalizedMessage original="Tasks by Top Level" locale="zh" localized="顶层任务"/>
+    <moqui.basic.LocalizedMessage original="Actual (h)" locale="zh" localized="实际（小时）"/>
+    <moqui.basic.LocalizedMessage original="Actual (d)" locale="zh" localized="实际（天）"/>
+    <moqui.basic.LocalizedMessage original="Remaining (h)" locale="zh" localized="剩余（小时）"/>
+    <moqui.basic.LocalizedMessage original="Remaining (d)" locale="zh" localized="剩余（天）"/>
+    <moqui.basic.LocalizedMessage original="Estimated (h)" locale="zh" localized="预估（小时）"/>
+    <moqui.basic.LocalizedMessage original="Estimated (d)" locale="zh" localized="预估（天）"/>
+    <moqui.basic.LocalizedMessage original="Act/Est %" locale="zh" localized="实际/预估 %"/>
+    <moqui.basic.LocalizedMessage original="Act+Rem/Est %" locale="zh" localized="实际+剩余/预估 %"/>
+    <moqui.basic.LocalizedMessage original="Budget (h)" locale="zh" localized="预算（小时）"/>
+    <moqui.basic.LocalizedMessage original="Budget (d)" locale="zh" localized="预算（天）"/>
+    <moqui.basic.LocalizedMessage original="Act/Bgt %" locale="zh" localized="实际/预算 %"/>
+    <moqui.basic.LocalizedMessage original="Act+Rem/Bgt %" locale="zh" localized="实际+剩余/预算 %"/>
+    <moqui.basic.LocalizedMessage original="Estimated Start Date" locale="zh" localized="预估开始日期"/>
+    <moqui.basic.LocalizedMessage original="Add Wiki Page" locale="zh" localized="添加维基页面"/>
+    <moqui.basic.LocalizedMessage original="Space" locale="zh" localized="空间"/>
+
+    <moqui.basic.LocalizedMessage original="Show Invoiced" locale="zh" localized="显示发票"/>
+    <moqui.basic.LocalizedMessage original="Update Rates" locale="zh" localized="更新费率"/>
+    <moqui.basic.LocalizedMessage original="Project Client Invoice" locale="zh" localized="项目客户发票"/>
+    <moqui.basic.LocalizedMessage original="Project Worker Invoice" locale="zh" localized="项目工人发票"/>
+    <moqui.basic.LocalizedMessage original="Hours" locale="zh" localized="工时"/>
+    <moqui.basic.LocalizedMessage original="Worker" locale="zh" localized="工人"/>
+    <moqui.basic.LocalizedMessage original="Rate Type" locale="zh" localized="费率类型"/>
+    <moqui.basic.LocalizedMessage original="Client Hour Rate" locale="zh" localized="客户工时费率"/>
+    <moqui.basic.LocalizedMessage original="Vendor Hour Rate" locale="zh" localized="供应商工时费率"/>
+    <moqui.basic.LocalizedMessage original="Comments" locale="zh" localized="评论"/>
+    <moqui.basic.LocalizedMessage original="Client Invoice" locale="zh" localized="客户发票"/>
+    <moqui.basic.LocalizedMessage original="Vendor Invoice" locale="zh" localized="供应商发票"/>
+
+    <moqui.basic.LocalizedMessage original="Hrs Est" locale="zh" localized="工时预估"/>
+    <moqui.basic.LocalizedMessage original="Hrs Budget" locale="zh" localized="工时预算"/>
+    <moqui.basic.LocalizedMessage original="Cost Budget" locale="zh" localized="成本预算"/>
+    <moqui.basic.LocalizedMessage original="P-CB Gap" locale="zh" localized="预估完成度/预算使用度"/>
+    <moqui.basic.LocalizedMessage original="Estimate ${ec.l10n.format(project.estimatedWorkTime, '#.#')} hrs" locale="zh" localized="预估 ${ec.l10n.format(project.estimatedWorkTime, '#.#')} 工时"/>
+    <moqui.basic.LocalizedMessage original="Worked ${ec.l10n.format(project.actualWorkTime, '#.#')} hrs" locale="zh" localized="已工作 ${ec.l10n.format(project.actualWorkTime, '#.#')} 工时"/>
+    <moqui.basic.LocalizedMessage original="Est Rem ${ec.l10n.format(project.remainingWorkTime, '#.#')} hrs" locale="zh" localized="预估剩余 ${ec.l10n.format(project.remainingWorkTime, '#.#')} 工时"/>
+    <moqui.basic.LocalizedMessage original="Budget ${ec.l10n.format(project.totalTimeAllowed, '#.#')} hrs" locale="zh" localized="预算 ${ec.l10n.format(project.totalTimeAllowed, '#.#')} 工时"/>
+    <moqui.basic.LocalizedMessage original="Act Bgt Rem ${ec.l10n.format(project.totalTimeAllowed - (project.actualWorkTime?:0), '#.#')} hrs" locale="zh" localized="实际预算剩余 ${ec.l10n.format(project.totalTimeAllowed - (project.actualWorkTime?:0), '#.#')} 工时"/>
+    <moqui.basic.LocalizedMessage original="Est Bgt Rem ${ec.l10n.format(project.totalTimeAllowed - pstats.actualPlusRemainingTime, '#.#')} hrs" locale="zh" localized="预估预算剩余 ${ec.l10n.format(project.totalTimeAllowed - pstats.actualPlusRemainingTime, '#.#')} 工时"/>
+    <moqui.basic.LocalizedMessage original="Avg Rate ${ec.l10n.formatCurrency(pstats.clientAverageHourCost, project.costUomId, 2)}" locale="zh" localized="平均费率 ${ec.l10n.formatCurrency(pstats.clientAverageHourCost, project.costUomId, 2)}"/>
+    <moqui.basic.LocalizedMessage original="Actual Cost ${ec.l10n.formatCurrency(project.actualClientCost, project.costUomId, 2)}" locale="zh" localized="实际成本 ${ec.l10n.formatCurrency(project.actualClientCost, project.costUomId, 2)}"/>
+    <moqui.basic.LocalizedMessage original="Est Cost ${ec.l10n.formatCurrency(pstats.clientEstimatedCost, project.costUomId, 2)}" locale="zh" localized="预估成本 ${ec.l10n.formatCurrency(pstats.clientEstimatedCost, project.costUomId, 2)}"/>
+    <moqui.basic.LocalizedMessage original="Budget ${ec.l10n.formatCurrency(project.totalClientCostAllowed, project.costUomId, 2)}" locale="zh" localized="预算 ${ec.l10n.formatCurrency(project.totalClientCostAllowed, project.costUomId, 2)}"/>
+    <moqui.basic.LocalizedMessage original="Rem ${ec.l10n.formatCurrency(pstats.clientBudgetRemaining, project.costUomId, 2)}" locale="zh" localized="剩余 ${ec.l10n.formatCurrency(pstats.clientBudgetRemaining, project.costUomId, 2)}"/>
+    <moqui.basic.LocalizedMessage original="Est ${pstats.clientBudgetEstimateDiff &lt; 0 ? 'over' : 'under'} ${ec.l10n.formatCurrency(pstats.clientBudgetEstimateDiff?.abs(), project.costUomId, 2)}" locale="zh" localized="预估 ${pstats.clientBudgetEstimateDiff &lt; 0 ? '超出' : '低于'} ${ec.l10n.formatCurrency(pstats.clientBudgetEstimateDiff?.abs(), project.costUomId, 2)}"/>
+    <moqui.basic.LocalizedMessage original="Provider Cost ${ec.l10n.formatCurrency(project.actualCost, project.costUomId, 2)}" locale="zh" localized="实际成本 ${ec.l10n.formatCurrency(project.actualCost, project.costUomId, 2)}"/>
+    <moqui.basic.LocalizedMessage original="Profit ${ec.l10n.formatCurrency(pstats.actualProfit, project.costUomId, 2)}" locale="zh" localized="利润 ${ec.l10n.formatCurrency(pstats.actualProfit, project.costUomId, 2)}"/>
+    <moqui.basic.LocalizedMessage original="${pstats.taskCount} Tasks" locale="zh" localized="${pstats.taskCount} 任务"/>
+    <moqui.basic.LocalizedMessage original="Approved - ${pstats.taskCountByStatusMap.WeApproved?:0}" locale="zh" localized="获批 - ${pstats.taskCountByStatusMap.WeApproved?:0}"/>
+    <moqui.basic.LocalizedMessage original="On Hold - ${pstats.taskCountByStatusMap.WeOnHold?:0}" locale="zh" localized="挂起 - ${pstats.taskCountByStatusMap.WeOnHold?:0}"/>
+    <moqui.basic.LocalizedMessage original="In Progress - ${pstats.taskCountByStatusMap.WeInProgress?:0}" locale="zh" localized="处理中 - ${pstats.taskCountByStatusMap.WeInProgress?:0}"/>
+    <moqui.basic.LocalizedMessage original="Complete/Closed - ${((pstats.taskCountByStatusMap.WeComplete?:0) as BigDecimal) + ((pstats.taskCountByStatusMap.WeClosed?:0) as BigDecimal)}" locale="zh" localized="完成/已关闭 - ${((pstats.taskCountByStatusMap.WeComplete?:0) as BigDecimal) + ((pstats.taskCountByStatusMap.WeClosed?:0) as BigDecimal)}"/>
+    <moqui.basic.LocalizedMessage original="In Planning - ${pstats.taskCountByStatusMap.WeInPlanning?:0}" locale="zh" localized="规划中 - ${pstats.taskCountByStatusMap.WeInPlanning?:0}"/>
+    <moqui.basic.LocalizedMessage original="Cancelled - ${pstats.taskCountByStatusMap.WeCancelled?:0}" locale="zh" localized="已取消 - ${pstats.taskCountByStatusMap.WeCancelled?:0}"/>
+    <moqui.basic.LocalizedMessage original="Clone Project" locale="zh" localized="复制项目"/>
+    <moqui.basic.LocalizedMessage original="${pstats.projectDanger ? 'Danger' : (pstats.projectWarning ? 'Warning' : 'On Track')}" locale="zh" localized="${pstats.projectDanger ? '进展危险' : (pstats.projectWarning ? '进展告警' : '进展顺利')}"/>
+
+    <moqui.basic.LocalizedMessage original="Hide Invoiced" locale="zh" localized="隐藏发票"/>
+    <moqui.basic.LocalizedMessage original="Existing Invoice" locale="zh" localized="现有发票"/>
+    <moqui.basic.LocalizedMessage original="Grouping" locale="zh" localized="分组"/>
+    <moqui.basic.LocalizedMessage original="Item Per Time Entry" locale="zh" localized="每次输入项"/>
+    <moqui.basic.LocalizedMessage original="Item Per Worker" locale="zh" localized="每个工人项"/>
+    <moqui.basic.LocalizedMessage original="Single Invoice Item" locale="zh" localized="单一发票项"/>
+    <moqui.basic.LocalizedMessage original="Invoice Time and Expenses" locale="zh" localized="发票时间和费用"/>
+    <moqui.basic.LocalizedMessage original="Invoice Time" locale="zh" localized="发票时间"/>
+
+    <moqui.basic.LocalizedMessage original="Task ${workEffortId}" locale="zh" localized="任务 ${workEffortId}"/>
+    <moqui.basic.LocalizedMessage original="Task Summary" locale="zh" localized="任务概要"/>
+    <moqui.basic.LocalizedMessage original="Assignments" locale="zh" localized="分配"/>
+    <moqui.basic.LocalizedMessage original="Clock In" locale="zh" localized="签到"/>
+    <moqui.basic.LocalizedMessage original="Clock Out" locale="zh" localized="打卡下班"/>
+    <moqui.basic.LocalizedMessage original="Project: " locale="zh" localized="项目："/>
+    <moqui.basic.LocalizedMessage original="Milestone: " locale="zh" localized="里程碑："/>
+    <moqui.basic.LocalizedMessage original="Priority: " locale="zh" localized="优先级："/>
+    <moqui.basic.LocalizedMessage original="Purpose: " locale="zh" localized="用途："/>
+    <moqui.basic.LocalizedMessage original="Status: " locale="zh" localized="状态："/>
+    <moqui.basic.LocalizedMessage original="Resolution: " locale="zh" localized="解决："/>
+    <moqui.basic.LocalizedMessage original="Due Date: " locale="zh" localized="截止日期："/>
+    <moqui.basic.LocalizedMessage original="Estimated Hours: " locale="zh" localized="预估工时："/>
+    <moqui.basic.LocalizedMessage original="Actual Hours: " locale="zh" localized="实际工时："/>
+    <moqui.basic.LocalizedMessage original="Remaining Hours: " locale="zh" localized="剩余工时："/>
+    <moqui.basic.LocalizedMessage original="Act/Est: " locale="zh" localized="实际/预估："/>
+    <moqui.basic.LocalizedMessage original="Act+Rem/Est: " locale="zh" localized="实际+剩余/预估："/>
+    <moqui.basic.LocalizedMessage original="Last Updated: " locale="zh" localized="最近更新时间："/>
+    <moqui.basic.LocalizedMessage original="Add Comment" locale="zh" localized="添加评论"/>
+    <moqui.basic.LocalizedMessage original="Status History" locale="zh" localized="状态历史"/>
+    <moqui.basic.LocalizedMessage original="${oldStatusItem ? oldStatusItem.description + ' to ' : ''}${statusItem?.description}${(userAccount?.username ? ' by ' + userAccount.username : '')} at ${ec.l10n.format(statusHistory.changedDate, 'yyyy-MM-dd HH:mm')}" locale="zh" localized="${(userAccount?.username ? ' 由 ' + userAccount.username : '')} 在 ${ec.l10n.format(statusHistory.changedDate, 'yyyy-MM-dd HH:mm')} ${oldStatusItem ? oldStatusItem.description + ' to ' : ''}${statusItem?.description}"/>
+    <moqui.basic.LocalizedMessage original="Child Tasks" locale="zh" localized="子任务"/>
+    <moqui.basic.LocalizedMessage original="New Child Task" locale="zh" localized="新增子任务"/>
+
+    <moqui.basic.LocalizedMessage original="Fixed" locale="zh" localized="确定的"/>
+    <moqui.basic.LocalizedMessage original="Can't Reproduce" locale="zh" localized="无法重现"/>
+    <moqui.basic.LocalizedMessage original="Won't Fix" locale="zh" localized="不确定的"/>
+    <moqui.basic.LocalizedMessage original="Duplicate" locale="zh" localized="重复的"/>
+    <moqui.basic.LocalizedMessage original="Rejected" locale="zh" localized="已拒绝"/>
+    <moqui.basic.LocalizedMessage original="Insufficient Information" locale="zh" localized="信息不充分"/>
+    <moqui.basic.LocalizedMessage original="Completed" locale="zh" localized="已完成"/>
+    <moqui.basic.LocalizedMessage original="Unresolved" locale="zh" localized="未解决"/>
+
+    <moqui.basic.LocalizedMessage original="Incomplete" locale="zh" localized="未完成"/>
+    <moqui.basic.LocalizedMessage original="Won't Complete" locale="zh" localized="无法完成"/>
+    <moqui.basic.LocalizedMessage original="Cannot Reproduce" locale="zh" localized="无法重现"/>
+
+    <moqui.basic.LocalizedMessage original="Request" locale="zh" localized="请求"/>
+    <moqui.basic.LocalizedMessage original="Add Employee" locale="zh" localized="添加雇员"/>
+    <moqui.basic.LocalizedMessage original="Employer/Branch" locale="zh" localized="雇主/分支机构"/>
+    <moqui.basic.LocalizedMessage original="Account Detail" locale="zh" localized="账户详情"/>
+    <moqui.basic.LocalizedMessage original="Security Groups" locale="zh" localized="安全组"/>
+    <moqui.basic.LocalizedMessage original="Add to Group" locale="zh" localized="加入分组"/>
+    <moqui.basic.LocalizedMessage original="Internal Organization Relationships" locale="zh" localized="内部组织关系"/>
+    <moqui.basic.LocalizedMessage original="Rel. Type" locale="zh" localized="关系类型"/>
+    <moqui.basic.LocalizedMessage original="Add to Organization" locale="zh" localized="加入组织"/>
+
+    <moqui.basic.LocalizedMessage original="Postal - Primary" locale="zh" localized="邮寄地址 - 默认"/>
+    <moqui.basic.LocalizedMessage original="Postal - Shipping Destination" locale="zh" localized="邮寄地址 - 运送目的地"/>
+    <moqui.basic.LocalizedMessage original="Postal - Shipping Origin" locale="zh" localized="邮寄地址 - 发运地"/>
+    <moqui.basic.LocalizedMessage original="Postal - Billing (AP)" locale="zh" localized="邮寄地址 - 账单 (AP)"/>
+    <moqui.basic.LocalizedMessage original="Postal - Payment (AR)" locale="zh" localized="邮寄地址 - 付款 (AR)"/>
+    <moqui.basic.LocalizedMessage original="Postal - General Correspondence" locale="zh" localized="邮寄地址 - 普通信件"/>
+    <moqui.basic.LocalizedMessage original="Postal - Purchase Return" locale="zh" localized="邮寄地址 - 采购退货"/>
+    <moqui.basic.LocalizedMessage original="Postal - Previous" locale="zh" localized="邮寄地址 - 以前"/>
+    <moqui.basic.LocalizedMessage original="Postal - Home" locale="zh" localized="邮寄地址 - 家庭"/>
+    <moqui.basic.LocalizedMessage original="Postal - Work" locale="zh" localized="邮寄地址 - 工作"/>
+    <moqui.basic.LocalizedMessage original="Postal - Retail Store" locale="zh" localized="邮寄地址 - 零售店"/>
+    <moqui.basic.LocalizedMessage original="Phone - Primary" locale="zh" localized="电话 - 默认"/>
+    <moqui.basic.LocalizedMessage original="Phone - Shipping Destination" locale="zh" localized="电话 - 运送目的地"/>
+    <moqui.basic.LocalizedMessage original="Phone - Shipping Origin" locale="zh" localized="电话 - 发货地"/>
+    <moqui.basic.LocalizedMessage original="Phone - Shipping Fax" locale="zh" localized="电话 - 发货传真"/>
+    <moqui.basic.LocalizedMessage original="Phone - Billing (AP)" locale="zh" localized="电话 - 账单（AP）"/>
+    <moqui.basic.LocalizedMessage original="Phone - Billing Fax (AP)" locale="zh" localized="电话 - 账单传真（AP）"/>
+    <moqui.basic.LocalizedMessage original="Phone - Payment (AP)" locale="zh" localized="电话 - 付款（AP）"/>
+    <moqui.basic.LocalizedMessage original="Phone - Payment Fax (AP)" locale="zh" localized="电话 - 付款传真（AP）"/>
+    <moqui.basic.LocalizedMessage original="Phone - Tax" locale="zh" localized="电话 - 税"/>
+    <moqui.basic.LocalizedMessage original="Phone - Direct Inward Dialing" locale="zh" localized="电话 - 直接拨入"/>
+    <moqui.basic.LocalizedMessage original="Phone - Home" locale="zh" localized="电话 - 家庭"/>
+    <moqui.basic.LocalizedMessage original="Phone - Work" locale="zh" localized="电话 - 工作"/>
+    <moqui.basic.LocalizedMessage original="Phone - Fax" locale="zh" localized="电话 - 传真"/>
+    <moqui.basic.LocalizedMessage original="Phone - Mobile" locale="zh" localized="电话 - 手机"/>
+    <moqui.basic.LocalizedMessage original="Phone - Assistant" locale="zh" localized="电话 - 助理"/>
+    <moqui.basic.LocalizedMessage original="Phone - Quick Calls" locale="zh" localized="电话 - 快速呼叫"/>
+    <moqui.basic.LocalizedMessage original="Phone - Retail Store" locale="zh" localized="电话 - 零售店"/>
+    <moqui.basic.LocalizedMessage original="Email - Primary Address" locale="zh" localized="电子邮件 - 默认"/>
+    <moqui.basic.LocalizedMessage original="Email - Shipping Destination" locale="zh" localized="电子邮件 - 运送目的地"/>
+    <moqui.basic.LocalizedMessage original="Email - Shipping Origin" locale="zh" localized="电子邮件 - 发货地"/>
+    <moqui.basic.LocalizedMessage original="Email - Billing (AP)" locale="zh" localized="电子邮件 - 账单（AP）"/>
+    <moqui.basic.LocalizedMessage original="Email - Payment (AR)" locale="zh" localized="电子邮件 - 付款（AR）"/>
+    <moqui.basic.LocalizedMessage original="Email - Other" locale="zh" localized="电子邮件 - 其它"/>
+    <moqui.basic.LocalizedMessage original="Email - Support" locale="zh" localized="电子邮件 - 支持"/>
+    <moqui.basic.LocalizedMessage original="Email - Order Notification" locale="zh" localized="电子邮件 - 订单通知"/>
+    <moqui.basic.LocalizedMessage original="Email - Marketing" locale="zh" localized="电子邮件 - 市场"/>
+    <moqui.basic.LocalizedMessage original="Email - Retail Store" locale="zh" localized="电子邮件 - 零售店"/>
+    <moqui.basic.LocalizedMessage original="Website URL - Primary" locale="zh" localized="网址 - 默认"/>
+    <moqui.basic.LocalizedMessage original="Website URL - Payment (AR)" locale="zh" localized="网址 - 付款（AR）"/>
+    <moqui.basic.LocalizedMessage original="Website URL - Facebook" locale="zh" localized="网址 - 脸书"/>
+    <moqui.basic.LocalizedMessage original="Website URL - iCal" locale="zh" localized="网址 - iCal"/>
+    <moqui.basic.LocalizedMessage original="Website URL - iCal" locale="zh" localized="网址 - 领英"/>
+    <moqui.basic.LocalizedMessage original="Website URL - Twitter" locale="zh" localized="网址 - 推特"/>
+    <moqui.basic.LocalizedMessage original="Website URL - Retail Store" locale="zh" localized="网址 - 零售店"/>
+    <moqui.basic.LocalizedMessage original="Other" locale="zh" localized="其它"/>
+    <moqui.basic.LocalizedMessage original="IP Address - Client" locale="zh" localized="IP地址 - 客户"/>
+
+    <moqui.basic.LocalizedMessage original="Update User" locale="zh" localized="更新用户"/>
+    <moqui.basic.LocalizedMessage original="Add Assignment" locale="zh" localized="添加分配"/>
+    <moqui.basic.LocalizedMessage original="Product" locale="zh" localized="产品"/>
+    <moqui.basic.LocalizedMessage original="Sales" locale="zh" localized="销售"/>
+    <moqui.basic.LocalizedMessage original="Employment" locale="zh" localized="雇用"/>
+    <moqui.basic.LocalizedMessage original="Commission" locale="zh" localized="佣金"/>
+    <moqui.basic.LocalizedMessage original="End User License Agreement" locale="zh" localized="终端用户许可协议"/>
+    <moqui.basic.LocalizedMessage original="Carrier" locale="zh" localized="承运人"/>
+    <moqui.basic.LocalizedMessage original="Agreement Date" locale="zh" localized="协议日期"/>
+    <moqui.basic.LocalizedMessage original="Agreement Text" locale="zh" localized="协议文本"/>
+    <moqui.basic.LocalizedMessage original="Add Settlement Term" locale="zh" localized="添加结算期限"/>
+    <moqui.basic.LocalizedMessage original="Add Other Term" locale="zh" localized="添加其它期限"/>
+    <moqui.basic.LocalizedMessage original="Settlement Term" locale="zh" localized="结算期限"/>
+    <moqui.basic.LocalizedMessage original="Term Type" locale="zh" localized="期限类型"/>
+    <moqui.basic.LocalizedMessage original="Term Number" locale="zh" localized="期限编号"/>
+    <moqui.basic.LocalizedMessage original="Term Text" locale="zh" localized="期限文本"/>
+    <moqui.basic.LocalizedMessage original="Add Agreement Item" locale="zh" localized="添加协议子项"/>
+    <moqui.basic.LocalizedMessage original="Quantity" locale="zh" localized="数量"/>
+    <moqui.basic.LocalizedMessage original="Item Type" locale="zh" localized="子项类型"/>
+    <moqui.basic.LocalizedMessage original="Item Text" locale="zh" localized="子项文本"/>
+    <moqui.basic.LocalizedMessage original="Term" locale="zh" localized="期限"/>
+
+    <moqui.basic.LocalizedMessage original="Financial" locale="zh" localized="财务"/>
+    <moqui.basic.LocalizedMessage original="Payment (net days)" locale="zh" localized="付款（净天数）"/>
+    <moqui.basic.LocalizedMessage original="Payment net days, part 1" locale="zh" localized="付款净天数，第 1 部分"/>
+    <moqui.basic.LocalizedMessage original="Payment net days, part 2" locale="zh" localized="付款净天数，第 2 部分"/>
+    <moqui.basic.LocalizedMessage original="Payment net days, part 3" locale="zh" localized="付款净天数，第 3 部分"/>
+    <moqui.basic.LocalizedMessage original="Payment (discounted if paid within specified days)" locale="zh" localized="付款（在指定日期内付款可享受折扣）"/>
+    <moqui.basic.LocalizedMessage original="Payment (due on specified day of current month)" locale="zh" localized="付款（当月指定日期到期）"/>
+    <moqui.basic.LocalizedMessage original="Payment (due on specified day of next month)" locale="zh" localized="付款（在下个月的指定日期到期）"/>
+    <moqui.basic.LocalizedMessage original="Late Fee (percent)" locale="zh" localized="滞纳金（百分比）"/>
+    <moqui.basic.LocalizedMessage original="Penalty For Collection Agency" locale="zh" localized="对代收公司的处罚"/>
+    <moqui.basic.LocalizedMessage original="Non-Returnable Sales Item" locale="zh" localized="不可退回的销售项目"/>
+    <moqui.basic.LocalizedMessage original="Incentive" locale="zh" localized="激励"/>
+    <moqui.basic.LocalizedMessage original="Legal" locale="zh" localized="合法的"/>
+    <moqui.basic.LocalizedMessage original="Threshold" locale="zh" localized="阈值"/>
+    <moqui.basic.LocalizedMessage original="Clause For Renewal" locale="zh" localized="续订条款"/>
+    <moqui.basic.LocalizedMessage original="Agreement Termination" locale="zh" localized="协议终止"/>
+    <moqui.basic.LocalizedMessage original="Indemnification" locale="zh" localized="保障"/>
+    <moqui.basic.LocalizedMessage original="Non-Compete" locale="zh" localized="竞业禁止"/>
+    <moqui.basic.LocalizedMessage original="Exclusive Relationship" locale="zh" localized="排他性关系"/>
+    <moqui.basic.LocalizedMessage original="Commission" locale="zh" localized="佣金"/>
+    <moqui.basic.LocalizedMessage original="Commission Term Fixed Per Unit" locale="zh" localized="每单位固定佣金期限"/>
+    <moqui.basic.LocalizedMessage original="Commission Term Variable" locale="zh" localized="佣金期限变量"/>
+    <moqui.basic.LocalizedMessage original="Commission Term Minimum Per Unit" locale="zh" localized="每单位最低佣金期限"/>
+    <moqui.basic.LocalizedMessage original="Commission Term Maximum Per Unit" locale="zh" localized="每单位佣金期限上限"/>
+
+    <moqui.basic.LocalizedMessage original="Incoterm" locale="zh" localized="国际贸易术语"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Ex Works" locale="zh" localized="国际贸易术语出厂"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Free Carrier" locale="zh" localized="国际贸易术语承运人"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Free On Board" locale="zh" localized="国际贸易术语船上免费"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Free Alongside Ship" locale="zh" localized="国际贸易术语船边免费"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Cost and Freight" locale="zh" localized="国际贸易术语成本和运费"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Cost, Insurance and Freight" locale="zh" localized="国际贸易术语成本、保险和运费"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Carriage Paid To" locale="zh" localized="国际贸易术语运费付至"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Carriage and Insurance Paid to" locale="zh" localized="国际贸易术语运费和保险费支付给"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Delivered at Place" locale="zh" localized="国际贸易术语到位交货"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Delivered At Frontier" locale="zh" localized="国际贸易术语边境交货"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Delivered Ex Ship" locale="zh" localized="国际贸易术语离船交货"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Delivered Ex Quay" locale="zh" localized="国际贸易术语码头交货"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Delivered Duty Paid" locale="zh" localized="国际贸易术语完税后交货"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Delivered Duty Unpaid" locale="zh" localized="国际贸易术语未完税交货"/>
+    <moqui.basic.LocalizedMessage original="Incoterm Delivered at Terminal" locale="zh" localized="国际贸易术语在码头交付"/>
+    <moqui.basic.LocalizedMessage original="Purchasing" locale="zh" localized="采购"/>
+    <moqui.basic.LocalizedMessage original="Preferred Freight" locale="zh" localized="首选运费"/>
+
+    <moqui.basic.LocalizedMessage original="Sub-Agreement" locale="zh" localized="子协议"/>
+    <moqui.basic.LocalizedMessage original="Exhibit" locale="zh" localized="展示"/>
+    <moqui.basic.LocalizedMessage original="Pricing" locale="zh" localized="定价"/>
+    <moqui.basic.LocalizedMessage original="Purchase" locale="zh" localized="采购"/>
+    <moqui.basic.LocalizedMessage original="Section" locale="zh" localized="部分"/>
+    <moqui.basic.LocalizedMessage original="Commission Rate" locale="zh" localized="佣金率"/>
+
+    <moqui.basic.LocalizedMessage original="Edit Agreement" locale="zh" localized="编辑协议"/>
+    <moqui.basic.LocalizedMessage original="Agreement Document" locale="zh" localized="协议文件"/>
+    <moqui.basic.LocalizedMessage original="Price Sheet" locale="zh" localized="价目表"/>
+    <moqui.basic.LocalizedMessage original="Supporting Document" locale="zh" localized="支持文件"/>
+    <moqui.basic.LocalizedMessage original="Edit Content" locale="zh" localized="编辑内容"/>
+    <moqui.basic.LocalizedMessage original="By ${ec.resource.expand('UsernameTemplate','',paua+[userId:content.userId])} at ${ec.l10n.format(content.contentDate, 'yyyy-MM-dd HH:mm')}" locale="zh" localized="由 ${ec.resource.expand('UsernameTemplate','',paua+[userId:content.userId])} 上传于 ${ec.l10n.format(content.contentDate, 'yyyy-MM-dd HH:mm')}"/>
+
+    <moqui.basic.LocalizedMessage original="Add Task Assignment" locale="zh" localized="添加任务分配"/>
+    <moqui.basic.LocalizedMessage original="Notifs?" locale="zh" localized="是否通知？"/>
+    <moqui.basic.LocalizedMessage original="Record Time" locale="zh" localized="记录时间"/>
+    <moqui.basic.LocalizedMessage original="Auto Update Rates" locale="zh" localized="自动更新费率"/>
+    <moqui.basic.LocalizedMessage original="Worker Invoice" locale="zh" localized="工人发票"/>
+    <moqui.basic.LocalizedMessage original="Piece Count" locale="zh" localized="件数"/>
+    <moqui.basic.LocalizedMessage original="Employer" locale="zh" localized="雇主"/>
+    <moqui.basic.LocalizedMessage original="Break Hours" locale="zh" localized="休息时间"/>
+    <moqui.basic.LocalizedMessage original="${timeEntryId ? 'Update' : 'Add'} Time Entry" locale="zh" localized="${timeEntryId ? '更新' : '添加'}时间子项"/>
+    <moqui.basic.LocalizedMessage original="Record Time" locale="zh" localized="记录时间"/>
+    <moqui.basic.LocalizedMessage original="Enter values for 2 of the 3 below, or just Hours or From and Thru will be set to now" locale="zh" localized="输入下面 3 个中的 2 个的值，或者只设定小时其它部分将会被设为当前日期和时间"/>
+    <moqui.basic.LocalizedMessage original="To clock out now leave Hours and Thru empty; specify Hours or Thru if your clock out time is in the past" locale="zh" localized="现在要下班，不需要填写下班时间； 如果您的下班时间是过去的时间，请指定时间"/>
+
+    <moqui.basic.LocalizedMessage original="New Relationship" locale="zh" localized="新增关系"/>
+    <moqui.basic.LocalizedMessage original="in role" locale="zh" localized="作为角色"/>
+    <moqui.basic.LocalizedMessage original="is a" locale="zh" localized="是一个"/>
+    <moqui.basic.LocalizedMessage original="of" locale="zh" localized="的"/>
+    <moqui.basic.LocalizedMessage original="in role" locale="zh" localized="作为角色"/>
+
+    <moqui.basic.LocalizedMessage original="Agent" locale="zh" localized="代理"/>
+    <moqui.basic.LocalizedMessage original="Child" locale="zh" localized="子"/>
+    <moqui.basic.LocalizedMessage original="Contact" locale="zh" localized="联系"/>
+    <moqui.basic.LocalizedMessage original="Customer" locale="zh" localized="顾客"/>
+    <moqui.basic.LocalizedMessage original="Employee" locale="zh" localized="顾员"/>
+    <moqui.basic.LocalizedMessage original="Friend" locale="zh" localized="朋友"/>
+    <moqui.basic.LocalizedMessage original="Manager" locale="zh" localized="经理"/>
+    <moqui.basic.LocalizedMessage original="Organization Member" locale="zh" localized="组织成员"/>
+    <moqui.basic.LocalizedMessage original="Organization Rollup (Child)" locale="zh" localized="组织成员（子）"/>
+    <moqui.basic.LocalizedMessage original="Partner" locale="zh" localized="合作伙伴"/>
+    <moqui.basic.LocalizedMessage original="Representative" locale="zh" localized="代表"/>
+    <moqui.basic.LocalizedMessage original="Sales Affiliate" locale="zh" localized="销售附属公司"/>
+    <moqui.basic.LocalizedMessage original="Spouse" locale="zh" localized="配偶"/>
+    <moqui.basic.LocalizedMessage original="Supplier" locale="zh" localized="供应商"/>
+
+    <moqui.basic.LocalizedMessage original="From Party" locale="zh" localized="从当事人"/>
+    <moqui.basic.LocalizedMessage original="From Role" locale="zh" localized="从角色"/>
+    <moqui.basic.LocalizedMessage original="To Party" locale="zh" localized="至当事人"/>
+    <moqui.basic.LocalizedMessage original="To Role" locale="zh" localized="至角色"/>
+
+    <moqui.basic.LocalizedMessage original="Add to Request" locale="zh" localized="添加请求"/>
+    <moqui.basic.LocalizedMessage original="User Accounts: ${userAccountList*.username.join(', ')}" locale="zh" localized="用户帐户: ${userAccountList*.username.join(', ')}"/>
+    <moqui.basic.LocalizedMessage original="To Addresses" locale="zh" localized="对方地址"/>
+    <moqui.basic.LocalizedMessage original="Sent Date" locale="zh" localized="发送日期"/>
+    <moqui.basic.LocalizedMessage original="Received Date" locale="zh" localized="接收日期"/>
+    <moqui.basic.LocalizedMessage original="Email Type" locale="zh" localized="电子邮件类型"/>
+    <moqui.basic.LocalizedMessage original="Send Message" locale="zh" localized="发送消息"/>
+    <moqui.basic.LocalizedMessage original="Subject" locale="zh" localized="主题"/>
+    <moqui.basic.LocalizedMessage original="Send" locale="zh" localized="发送"/>
+
+    <moqui.basic.LocalizedMessage original="Activity Request" locale="zh" localized="活动请求"/>
+    <moqui.basic.LocalizedMessage original="Billing" locale="zh" localized="账单"/>
+    <moqui.basic.LocalizedMessage original="Comment" locale="zh" localized="评论"/>
+    <moqui.basic.LocalizedMessage original="Conference" locale="zh" localized="会谈"/>
+    <moqui.basic.LocalizedMessage original="Customer Service" locale="zh" localized="客服"/>
+    <moqui.basic.LocalizedMessage original="Customer Support" locale="zh" localized="客户支持"/>
+    <moqui.basic.LocalizedMessage original="Meeting" locale="zh" localized="会议"/>
+    <moqui.basic.LocalizedMessage original="Sales Inquiry" locale="zh" localized="销售询价"/>
+    <moqui.basic.LocalizedMessage original="Sales Follow-Up" locale="zh" localized="销售跟进"/>
+    <moqui.basic.LocalizedMessage original="Seminar" locale="zh" localized="研讨会"/>
+    <moqui.basic.LocalizedMessage original="Shipments" locale="zh" localized="装运"/>
+    <moqui.basic.LocalizedMessage original="Purposes" locale="zh" localized="用于"/>
+    <moqui.basic.LocalizedMessage original="Message List" locale="zh" localized="消息列表"/>
+    <moqui.basic.LocalizedMessage original="Find Party" locale="zh" localized="查找当事人"/>
+    <moqui.basic.LocalizedMessage original="Reports" locale="zh" localized="报表"/>
+
+    <moqui.basic.LocalizedMessage original="Notifications" locale="zh" localized="通知"/>
+    <moqui.basic.LocalizedMessage original="Contact Info" locale="zh" localized="联系信息"/>
+    <moqui.basic.LocalizedMessage original="Scheduled Finds" locale="zh" localized="计划查找"/>
+    <moqui.basic.LocalizedMessage original="Screen" locale="zh" localized="屏幕"/>
+    <moqui.basic.LocalizedMessage original="Screen Find" locale="zh" localized="屏幕查找"/>
+    <moqui.basic.LocalizedMessage original="Render Mode" locale="zh" localized="渲染模式"/>
+    <moqui.basic.LocalizedMessage original="No Results Skip" locale="zh" localized="没有结果跳过"/>
+    <moqui.basic.LocalizedMessage original="Email - Primary Address" locale="zh" localized="默认电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Email Template" locale="zh" localized="电子邮件模版"/>
+    <moqui.basic.LocalizedMessage original="Email Subject" locale="zh" localized="电子邮件主题"/>
+    <moqui.basic.LocalizedMessage original="Email Subject" locale="zh" localized="电子邮件主题"/>
+    <moqui.basic.LocalizedMessage original="Email will be sent to ${userAccount.emailAddress} (username ${userAccount.username})" locale="zh" localized="电子邮件将会发送到 ${userAccount.emailAddress} (用户名 ${userAccount.username})"/>
+    <moqui.basic.LocalizedMessage original="Email Addresses" locale="zh" localized="电子邮件地址"/>
+    <moqui.basic.LocalizedMessage original="Add Email" locale="zh" localized="添加电子邮件"/>
+    <moqui.basic.LocalizedMessage original="Add Phone" locale="zh" localized="添加电话"/>
+    <moqui.basic.LocalizedMessage original="Phone Numbers" locale="zh" localized="添加电话"/>
+    <moqui.basic.LocalizedMessage original="Mailing Addresses" locale="zh" localized="邮寄地址"/>
+    <moqui.basic.LocalizedMessage original="Remove" locale="zh" localized="移除"/>
+    <moqui.basic.LocalizedMessage original="Request Date" locale="zh" localized="请求日期"/>
+    <moqui.basic.LocalizedMessage original="Assigned To" locale="zh" localized="分配给"/>
+    <moqui.basic.LocalizedMessage original="Draft" locale="zh" localized="草稿"/>
+    <moqui.basic.LocalizedMessage original="Submitted" locale="zh" localized="已提交"/>
+    <moqui.basic.LocalizedMessage original="Reviewed" locale="zh" localized="已查看"/>
+    <moqui.basic.LocalizedMessage original="Completed" locale="zh" localized="已完成"/>
+    <moqui.basic.LocalizedMessage original="Cancelled" locale="zh" localized="已取消"/>
+    <moqui.basic.LocalizedMessage original="New Event" locale="zh" localized="新增事件"/>
+    <moqui.basic.LocalizedMessage original="Sent" locale="zh" localized="发送"/>
+    <moqui.basic.LocalizedMessage original="Notified" locale="zh" localized="已通知"/>
+    <moqui.basic.LocalizedMessage original="Viewed" locale="zh" localized="已查看"/>
+
+    <moqui.basic.LocalizedMessage original="Invoices and Payments" locale="zh" localized="发票和付款"/>
+    <moqui.basic.LocalizedMessage original="Invoices" locale="zh" localized="发票"/>
+    <moqui.basic.LocalizedMessage original="Payments" locale="zh" localized="付款"/>
+    <moqui.basic.LocalizedMessage original="Aging" locale="zh" localized="帐龄"/>
+    <moqui.basic.LocalizedMessage original="Bulk Checks" locale="zh" localized="批量支票"/>
+    <moqui.basic.LocalizedMessage original="General Ledger" locale="zh" localized="总分类账"/>
+    <moqui.basic.LocalizedMessage original="Transactions" locale="zh" localized="交易"/>
+    <moqui.basic.LocalizedMessage original="Transaction Entries" locale="zh" localized="交易录入"/>
+    <moqui.basic.LocalizedMessage original="GL Accounts" locale="zh" localized="总账账户"/>
+    <moqui.basic.LocalizedMessage original="GL Journals" locale="zh" localized="日记账"/>
+    <moqui.basic.LocalizedMessage original="Time Periods" locale="zh" localized="时间段"/>
+    <moqui.basic.LocalizedMessage original="Budgets" locale="zh" localized="预算"/>
+    <moqui.basic.LocalizedMessage original="Internal Organization" locale="zh" localized="内部组织"/>
+    <moqui.basic.LocalizedMessage original="Receivable" locale="zh" localized="应收"/>
+    <moqui.basic.LocalizedMessage original="Payable" locale="zh" localized="应付"/>
+    <moqui.basic.LocalizedMessage original="Bank Accounts" locale="zh" localized="银行帐户"/>
+
+    <moqui.basic.LocalizedMessage original="Org Settings" locale="zh" localized="组织帐户设置"/>
+    <moqui.basic.LocalizedMessage original="Accounting Preferences" locale="zh" localized="会计偏好"/>
+    <moqui.basic.LocalizedMessage original="Accounting Preferences for ${partyDetail.organizationName} [${partyDetail.pseudoId}]" locale="zh" localized="会计偏好设置 ${partyDetail.organizationName} [${partyDetail.pseudoId}]"/>
+    <moqui.basic.LocalizedMessage original="${partyDetail.organizationName} [${partyDetail.pseudoId}] has no accounting preferences." locale="zh" localized="${partyDetail.organizationName} [${partyDetail.pseudoId}]没有设置会计偏好"/>
+    <moqui.basic.LocalizedMessage original="Source Party" locale="zh" localized="当事人帐户设置源"/>
+    <moqui.basic.LocalizedMessage original="Clone Accounting Settings" locale="zh" localized="克隆账户设置"/>
+    <moqui.basic.LocalizedMessage original="Account Types" locale="zh" localized="账户类型"/>
+    <moqui.basic.LocalizedMessage original="Invoice Types" locale="zh" localized="发票类型"/>
+    <moqui.basic.LocalizedMessage original="Invoice Type" locale="zh" localized="发票类型"/>
+    <moqui.basic.LocalizedMessage original="Item Types" locale="zh" localized="子项类型"/>
+    <moqui.basic.LocalizedMessage original="Payment Types" locale="zh" localized="付款类型"/>
+    <moqui.basic.LocalizedMessage original="Payment Instruments" locale="zh" localized="支付工具"/>
+    <moqui.basic.LocalizedMessage original="Financial Acct Reasons" locale="zh" localized="金融账户原因"/>
+    <moqui.basic.LocalizedMessage original="Financial Acct Types" locale="zh" localized="金融账户类型"/>
+    <moqui.basic.LocalizedMessage original="Asset Types" locale="zh" localized="资产类型"/>
+    <moqui.basic.LocalizedMessage original="GL Accounts for ${organization.organizationName}" locale="zh" localized="总账账户设置 ${organization.organizationName}"/>
+    <moqui.basic.LocalizedMessage original="Add GL Account" locale="zh" localized="添加总账账户"/>
+    <moqui.basic.LocalizedMessage original="Account Code" locale="zh" localized="账户代码"/>
+    <moqui.basic.LocalizedMessage original="Account Name" locale="zh" localized="账户名称"/>
+    <moqui.basic.LocalizedMessage original="Account Type" locale="zh" localized="账户类型"/>
+    <moqui.basic.LocalizedMessage original="Account Class" locale="zh" localized="账户类别"/>
+    <moqui.basic.LocalizedMessage original="Posted Balance" locale="zh" localized="过账余额"/>
+    <moqui.basic.LocalizedMessage original="GL Account" locale="zh" localized="总账账户"/>
+    <moqui.basic.LocalizedMessage original="Class" locale="zh" localized="类别"/>
+
+    <moqui.basic.LocalizedMessage original="Add Payment Type Account" locale="zh" localized="添加付款类型账户"/>
+    <moqui.basic.LocalizedMessage original="Add From Missing Payment Types" locale="zh" localized="从缺少的付款类型中添加"/>
+    <moqui.basic.LocalizedMessage original="Payment Type" locale="zh" localized="支付类型"/>
+    <moqui.basic.LocalizedMessage original="Is Applied" locale="zh" localized="应用"/>
+
+    <moqui.basic.LocalizedMessage original="Add Asset Type Mapping" locale="zh" localized="添加资产类型映射"/>
+    <moqui.basic.LocalizedMessage original="Asset Type" locale="zh" localized="资产类型"/>
+    <moqui.basic.LocalizedMessage original="Asset Class" locale="zh" localized="资产分类"/>
+    <moqui.basic.LocalizedMessage original="Asset Account" locale="zh" localized="资产账户"/>
+    <moqui.basic.LocalizedMessage original="Receipt Account" locale="zh" localized="收款账户"/>
+    <moqui.basic.LocalizedMessage original="Issuance Account" locale="zh" localized="发行账户"/>
+    <moqui.basic.LocalizedMessage original="Transfer Account" locale="zh" localized="转账账户"/>
+    <moqui.basic.LocalizedMessage original="Receipt TX Type" locale="zh" localized="收据交易类型"/>
+    <moqui.basic.LocalizedMessage original="Issuance TX Type" locale="zh" localized="发行交易类型"/>
+    <moqui.basic.LocalizedMessage original="Accumulated Depr Account" locale="zh" localized="累计折旧账户"/>
+    <moqui.basic.LocalizedMessage original="Depreciation Account" locale="zh" localized="折旧账户"/>
+    <moqui.basic.LocalizedMessage original="Profit Account" locale="zh" localized="利润账户"/>
+    <moqui.basic.LocalizedMessage original="Loss Account" locale="zh" localized="亏损账户"/>
+    <moqui.basic.LocalizedMessage original="Found Account" locale="zh" localized="基金账户"/>
+    <moqui.basic.LocalizedMessage original="Shrinkage Account" locale="zh" localized="收缩账户"/>
+
+    <moqui.basic.LocalizedMessage original="TX Reason" locale="zh" localized="交易原因"/>
+
+    <moqui.basic.LocalizedMessage original="HH Warehouse" locale="zh" localized="仓库管理"/>
+    <moqui.basic.LocalizedMessage original="Scan Shipment ID" locale="zh" localized="扫描货件编号"/>
+    <moqui.basic.LocalizedMessage original="Select Move" locale="zh" localized="选择移动"/>
+    <moqui.basic.LocalizedMessage original="Pick Moves Needed" locale="zh" localized="选择需要的移动"/>
+    <moqui.basic.LocalizedMessage original="Go" locale="zh" localized="扫描"/>
+    <moqui.basic.LocalizedMessage original="Reset Selections" locale="zh" localized="重置选择"/>
+    <moqui.basic.LocalizedMessage original="From Pool" locale="zh" localized="来源池"/>
+    <moqui.basic.LocalizedMessage original="Scan To Location" locale="zh" localized="扫描到位置"/>
+    <moqui.basic.LocalizedMessage original="Create Container ID" locale="zh" localized="创建容器 ID"/>
+    <moqui.basic.LocalizedMessage original="To Pool" locale="zh" localized="目的池"/>
+    <moqui.basic.LocalizedMessage original="Move Asset(s)" locale="zh" localized="移动资产"/>
+    <moqui.basic.LocalizedMessage original="No locations or containers found for product" locale="zh" localized="找不到产品的位置或容器"/>
+    <moqui.basic.LocalizedMessage original="No loc Asset" locale="zh" localized="没有位置的资产"/>
+
+
+    <moqui.basic.LocalizedMessage original="Add Invoice Type Mapping" locale="zh" localized="添加发票类型映射"/>
+    <moqui.basic.LocalizedMessage original="Add From Missing Invoice Types" locale="zh" localized="从缺少的发票类型中添加"/>
+    <moqui.basic.LocalizedMessage original="Invoice Types" locale="zh" localized="发票类型"/>
+    <moqui.basic.LocalizedMessage original="Is Payable" locale="zh" localized="是应付款"/>
+    <moqui.basic.LocalizedMessage original="Transaction Type" locale="zh" localized="交易类型"/>
+    <moqui.basic.LocalizedMessage original="Y (Payable)" locale="zh" localized="是（应付）"/>
+    <moqui.basic.LocalizedMessage original="N (Receivable)" locale="zh" localized="否（应收）"/>
+    <moqui.basic.LocalizedMessage original="Transaction Type" locale="zh" localized="交易类型"/>
+    <moqui.basic.LocalizedMessage original="Add Item Type Account" locale="zh" localized="添加子项类型账户"/>
+    <moqui.basic.LocalizedMessage original="Add From Missing Item Types" locale="zh" localized="从缺少的子项类型添加"/>
+    <moqui.basic.LocalizedMessage original="Direction" locale="zh" localized="方向"/>
+    <moqui.basic.LocalizedMessage original="Item Type Enum ID" locale="zh" localized="子项类型枚举 ID"/>
+    <moqui.basic.LocalizedMessage original="Either" locale="zh" localized="任意方向"/>
+    <moqui.basic.LocalizedMessage original="Incoming (Purchase)" locale="zh" localized="接收（采购）"/>
+    <moqui.basic.LocalizedMessage original="Outgoing (Sales)" locale="zh" localized="出去（销售）"/>
+    <moqui.basic.LocalizedMessage original="Are you sure? This will enable GL posting for this organization." locale="zh" localized="你确定吗？这将启用该组织的总账过账。"/>
+    <moqui.basic.LocalizedMessage original="${uomId} - ${description} - Local Currency Amounts are calculated for each GL Transaction IF a current exchange rate is set in a UomConversion record between Base Currency and Local Currency" locale="zh" localized="${uomId} - ${description} - 如果在【单位转换】中设置了基础货币和当地货币之间的当前汇率，则会为每个总账交易计算当地货币金额"/>
+
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AstTpFixed" locale="zh" localized="固定资产"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AstTpInventory" locale="zh" localized="库存"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AstTpSupplies" locale="zh" localized="供应商"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AstTpEquipment" locale="zh" localized="设备"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AstTpRental" locale="zh" localized="租赁设备资产"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AstTpRealEstate" locale="zh" localized="房地产"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AstTpInvRealEstate" locale="zh" localized="投资房地产"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AstTpBearerBiological" locale="zh" localized="承载生物"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AstTpBiological" locale="zh" localized="生物"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AstTpIntangible" locale="zh" localized="无形资产"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AsClsInventoryRaw" locale="zh" localized="库存 - 原材料"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AsClsInventorySub" locale="zh" localized="库存 - 子组件"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AsClsInventoryFin" locale="zh" localized="库存 - 成品"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AsClsInventoryDig" locale="zh" localized="库存 - 数字产品"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PtDisbursement" locale="zh" localized="支付"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PtFinancialAccount" locale="zh" localized="金融账户交易"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PtInvoicePayment" locale="zh" localized="发票付款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PtPrePayment" locale="zh" localized="预付款——费用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PtPrePaymentInventory" locale="zh" localized="预付款库存"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PtPrePaymentInventory" locale="zh" localized="预付款库存"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PtRefund" locale="zh" localized="退款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="THIRD_PARTY_HOLDINGS" locale="zh" localized="第三方控股"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PREPAID_EXPENSE" locale="zh" localized="预付费用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiAch" locale="zh" localized="ACH 直接"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiAmazonPay" locale="zh" localized="亚马逊支付"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiBillingAccount" locale="zh" localized="账单账户"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiBitcoinWallet" locale="zh" localized="比特币钱包"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiCreditCard" locale="zh" localized="信用卡"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiDebitCard" locale="zh" localized="借记卡"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiPayPalAccount" locale="zh" localized="PayPal帐户"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiGiftCard" locale="zh" localized="礼品卡"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiGiftCertificate" locale="zh" localized="礼券"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiCash" locale="zh" localized="现金"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiFinancialAccount" locale="zh" localized="金融账户"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiPersonalCheck" locale="zh" localized="个人支票"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiCompanyCheck" locale="zh" localized="公司支票"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiCertifiedCheck" locale="zh" localized="保兑支票"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiMoneyOrder" locale="zh" localized="汇票"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiCompanyAccount" locale="zh" localized="公司帐户"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiBillingAccount" locale="zh" localized="账单帐户"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiCod" locale="zh" localized="货到付款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiWireTransfer" locale="zh" localized="电汇"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PiOther" locale="zh" localized="其它"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttAmortization" locale="zh" localized="摊销"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttAssetReceipt" locale="zh" localized="资产收据"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttAssetIssuance" locale="zh" localized="资产发行"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttAssetVariance" locale="zh" localized="资产变动"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttCapitalization" locale="zh" localized="资本化"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttCommissionInvoice" locale="zh" localized="佣金发票"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttCreditLine" locale="zh" localized="信用额度"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttCreditMemo" locale="zh" localized="客户信用备忘录"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttObligation" locale="zh" localized="客户退货发票"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttDepreciation" locale="zh" localized="折旧成本"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttDisbursement" locale="zh" localized="支付"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttExternal" locale="zh" localized="外部的"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttFinancialDeposit" locale="zh" localized="财务账户存款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttFinancialWithdrawal" locale="zh" localized="财务账户取款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttFinancialAdjustment" locale="zh" localized="财务账户调整"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttGarnishmentInvoice" locale="zh" localized="抵扣发票"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttIncomingPayment" locale="zh" localized="来款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttIncomingPaymentAp" locale="zh" localized="收银申请"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttInternal" locale="zh" localized="内部的"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttInventoryReceipt" locale="zh" localized="库存收据"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttInventoryIssuance" locale="zh" localized="库存发行"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttInventoryVariance" locale="zh" localized="物资分歧"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttInvoiceInOutAppl" locale="zh" localized="发票AR/AP应用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttInvoiceAdjust" locale="zh" localized="发票调整"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttNetIncomeClosing" locale="zh" localized="净收益期结束"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttObligation" locale="zh" localized="职责"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttOtherObligation" locale="zh" localized="其它职责"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttOutgoingPayment" locale="zh" localized="对外支付"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttIncomingPaymentAp" locale="zh" localized="外发付款申请"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttIncomingPaymentAp" locale="zh" localized="外发付款申请"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttPaymentAdjust" locale="zh" localized="付款调整"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttPaymentApplied" locale="zh" localized="支付申请"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttPaymentInOutAppl" locale="zh" localized="付款入/出申请"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttPayrollInvoice" locale="zh" localized="工资发票"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttPeriodClosing" locale="zh" localized="期末调整"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttPurchaseInvoice" locale="zh" localized="采购发票"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttReceipt" locale="zh" localized="收据"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttReturnInventory" locale="zh" localized="退货库存"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttSalesInventory" locale="zh" localized="销售库存"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttSalesInvoice" locale="zh" localized="销售发票"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttVendCreditMemo" locale="zh" localized="供应商信用备忘录"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttTaxDue" locale="zh" localized="税到期"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttTaxInvoice" locale="zh" localized="税务发票"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttCustRtnInvoice" locale="zh" localized="客户退货发票"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttOutgoingPaymentAp" locale="zh" localized="外发付款申请"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AttVendRtnInvoice" locale="zh" localized="供应商退货发票"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InvoiceSales" locale="zh" localized="销售/采购"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InvoiceReturn" locale="zh" localized="退货"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InvoicePayroll" locale="zh" localized="员工工资"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InvoicePayrollOther" locale="zh" localized="其它工资"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InvoiceTax" locale="zh" localized="税"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InvoiceGarnishment" locale="zh" localized="抵押"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InvoiceCommission" locale="zh" localized="佣金"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InvoiceCreditMemo" locale="zh" localized="付款通知"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="InvoiceTemplate" locale="zh" localized="模版"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatAccountsPayable" locale="zh" localized="应付账款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatAccPayableUnapplied" locale="zh" localized="应付账款——未申请付款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatAccPayWriteOff" locale="zh" localized="应付账款核销"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatAccountsReceivable" locale="zh" localized="应收账款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatAccReceivableUnapplied" locale="zh" localized="应收账款——未申请付款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatAccRecWriteOff" locale="zh" localized="应收账款核销"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="ACCRUED_EXPENSES" locale="zh" localized="应计费用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatAccruedRevenue" locale="zh" localized="应计收入"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatAccRecBadRec" locale="zh" localized="坏账准备"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatCogsAvgCostAdj" locale="zh" localized="COGS——平均成本调整"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatCommissionExpense" locale="zh" localized="手续费"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatCommissionsAccrued" locale="zh" localized="应计佣金"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatCommissionsPayWriteOff" locale="zh" localized="应付佣金核销"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="COST_GOODS_SOLD" locale="zh" localized="销货成本"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatCurrentAsset" locale="zh" localized="流动资产"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatCurrentLiability" locale="zh" localized="流动负债"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="Customer Credits" locale="zh" localized="客户信用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatCurrentLiability" locale="zh" localized="客户存款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatDiscounts" locale="zh" localized="折扣"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="CUSTOMER_RETURNS" locale="zh" localized="客户退货"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatExpense" locale="zh" localized="费用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatFixedAsset" locale="zh" localized="固定资产"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatFaAccumDepreciation" locale="zh" localized="固定资产累计折旧"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatFaDepreciation" locale="zh" localized="固定资产折旧"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatFaFound" locale="zh" localized="找到固定资产"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatFaMaintenance" locale="zh" localized="固定资产维护"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatFaShrinkage" locale="zh" localized="固定资产缩水"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatForExGain" locale="zh" localized="外汇收益"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatForExGainLoss" locale="zh" localized="外汇损益"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatForExLoss" locale="zh" localized="外汇损失"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatIncome" locale="zh" localized="收入"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="INTEREST_INCOME" locale="zh" localized="利息收入占比"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatInterestIncomeRec" locale="zh" localized="应收利息收入"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatInterestIncWriteOff" locale="zh" localized="利息收入核销"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatInventory" locale="zh" localized="库存"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatInvAdjAvgCost" locale="zh" localized="从平均成本调整库存"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatInvFound" locale="zh" localized="库存发现"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatInvShrinkage" locale="zh" localized="存货损耗"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatInvValueAdj" locale="zh" localized="存货价值调整"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatLongTermLiability" locale="zh" localized="长期负债"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatMerchantSettlement" locale="zh" localized="商户账户结算"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatOperatingExpense" locale="zh" localized="营业费用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatOtherExpense" locale="zh" localized="其他费用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatOtherIncome" locale="zh" localized="其他收入"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatOwnersEquity" locale="zh" localized="所有者权益"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatPayInventoryTranIn" locale="zh" localized="转入存货应付款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatPrepaidExpenses" locale="zh" localized="预付费用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatPrepaidInventory" locale="zh" localized="预付库存"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatProfitLoss" locale="zh" localized="盈亏"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatRecInventoryTranOut" locale="zh" localized="转出存货应收账款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatRetainedEarnings" locale="zh" localized="留存收益"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatSupplierDeposits" locale="zh" localized="供应商保证金"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatTax" locale="zh" localized="税"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatUndepositedReceipts" locale="zh" localized="未存款收据"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatUnearnedRevenue" locale="zh" localized="非劳动收入"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatUninvoicedShpmntRcpts" locale="zh" localized="未注明的装运收据"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatUnissuedFixedAsset" locale="zh" localized="未发行固定资产"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="Unreceived Fixed Asset" locale="zh" localized="未收固定资产"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatUnreceivedFixedAsset" locale="zh" localized="未收存货"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatWipInventory" locale="zh" localized="在制品库存"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GatWriteOff" locale="zh" localized="核销"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="CURRENT_ASSET" locale="zh" localized="流动资产"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="CASH_EQUIVALENT" locale="zh" localized="现金及等价物"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="INVENTORY_ASSET" locale="zh" localized="库存资产"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="ACCOUNTS_RECEIVABLE" locale="zh" localized="应收账款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LOANS_RECEIVABLE" locale="zh" localized="应收贷款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PREPAID_EXPENSE" locale="zh" localized="预付费用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PREPAID_INVENTORY" locale="zh" localized="预付库存"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="ACCRUED_REVENUE" locale="zh" localized="应计收入"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="ALLOWANCE_BAD_DEBT" locale="zh" localized="坏账准备"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FatrPurchase" locale="zh" localized="采购"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FatrInitDeposit" locale="zh" localized="开户存款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FatrReplenish" locale="zh" localized="补给"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FatrRefund" locale="zh" localized="退款"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FatrDisbursement" locale="zh" localized="支付"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FatrTransfer" locale="zh" localized="转账"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FatrCsCredit" locale="zh" localized="客户服务信用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FatrErrorAdjust" locale="zh" localized="误差调整"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="COST_OF_DISCOUNTS" locale="zh" localized="折扣和减记"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="CUSTOMER_RETURNS" locale="zh" localized="客户退货"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="OTHER_REVENUE" locale="zh" localized="其他收入"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="SERVICES_REVENUE" locale="zh" localized="服务收入"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GOODS_REVENUE" locale="zh" localized="产品收入"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEN_ADMIN_EXPENSE" locale="zh" localized="一般及行政费用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="COMPENSATION" locale="zh" localized="员工薪酬"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="NON_EMP_COMPENSATION" locale="zh" localized="非员工薪酬"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="PROF_SERVICES" locale="zh" localized="专业服务"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="BANKING_CHARGES" locale="zh" localized="银行服务收费"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DATA_PROCESSING" locale="zh" localized="数据处理"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DUES_SUBSCRIPTIONS" locale="zh" localized="会费和订阅费"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="EDUCATION_EXPENSE" locale="zh" localized="教育费用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FACILITY_EXPENSE" locale="zh" localized="设施费用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="INSURANCE_EXPENSE" locale="zh" localized="保险费用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MISC_EXPENSE" locale="zh" localized="杂项费用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="OFFICE_EXPENSE" locale="zh" localized="办公用品"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="INCOME_TAX_EXPENSE" locale="zh" localized="税费收入"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="OTHER_TAX_EXPENSE" locale="zh" localized="税费——其他"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="TRAVEL_ENT" locale="zh" localized="旅游娱乐"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UTILITIES_EXPENSE" locale="zh" localized="公用事业费用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="VEHICLE_EXPENSE" locale="zh" localized="车辆费用"/>
+
+
+</entity-facade-xml>
