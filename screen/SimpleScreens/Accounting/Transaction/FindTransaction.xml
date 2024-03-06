@@ -49,7 +49,7 @@ along with this software (see the LICENSE.md file). If not, see
                 <field name="transactionDate" from="ec.user.nowTimestamp"><default-field><date-time/></default-field></field>
 
                 <field name="amountUomId"><default-field title="Currency">
-                    <drop-down no-current-selected-key="USD"><entity-options key="${uomId}" text="UomNameTemplate">
+                    <drop-down no-current-selected-key="CNY"><entity-options key="${uomId}" text="UomNameTemplate">
                         <entity-find entity-name="moqui.basic.Uom">
                             <econdition field-name="uomTypeEnumId" value="UT_CURRENCY_MEASURE"/>
                             <order-by field-name="description"/>

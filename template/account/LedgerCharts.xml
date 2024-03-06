@@ -46,10 +46,10 @@ along with this software (see the LICENSE.md file). If not, see
             <script>
                 datasets = [
                         [classGroupEnumId:'EngGlcNetRevenue'],
-                        [label:'Cost of Sales', classes:['COST_OF_SALES'], stack:'Expense'],
-                        [label:'Sales Expense', classes:['SALES_EXPENSE'], stack:'Expense'],
-                        [label:'Gen/Admin Expense', classes:['GEN_ADMIN_EXPENSE'], stack:'Expense'],
-                        [label:'Other Expense', classes:['CONTRIBUTIONS', 'NON_CASH_EXPENSE'], stack:'Expense'],
+                        [label:'销售成本', classes:['COST_OF_SALES'], stack:'Expense'],
+                        [label:'销售费用', classes:['SALES_EXPENSE'], stack:'Expense'],
+                        [label:'一般管理费用', classes:['GEN_ADMIN_EXPENSE'], stack:'Expense'],
+                        [label:'其它费用', classes:['CONTRIBUTIONS', 'NON_CASH_EXPENSE'], stack:'Expense'],
                         [classGroupEnumId:'EngGlcNetOpIncome', type:'line', fill:false]
                 ]
             </script>
@@ -100,10 +100,10 @@ along with this software (see the LICENSE.md file). If not, see
             <script>
                 datasets = [
                         [classGroupEnumId:'EngGlcNetRevenue', stack:'Income'],
-                        [label:'Non Op Income', classes:['INCOME'], stack:'Income'],
-                        [label:'Cost of Sales', classes:['COST_OF_SALES'], stack:'Expense'],
-                        [label:'Operating Expense', classes:['EXPENSE'], stack:'Expense'],
-                        [label:'Non Op Expense', classes:['NON_OP_EXPENSE'], stack:'Expense'],
+                        [label:'净营业收入', classes:['INCOME'], stack:'Income'],
+                        [label:'销售成本', classes:['COST_OF_SALES'], stack:'Expense'],
+                        [label:'经营费用', classes:['EXPENSE'], stack:'Expense'],
+                        [label:'非经营费用', classes:['NON_OP_EXPENSE'], stack:'Expense'],
                         [classGroupEnumId:'EngGlcNetIncome', type:'line', fill:false]
                 ]
             </script>
@@ -147,9 +147,9 @@ along with this software (see the LICENSE.md file). If not, see
             <script>
                 datasets = [ [classGroupEnumId:'EngGlcNetIncome', fill:false], [classGroupEnumId:'EngGlcNetOpIncome', fill:false] ]
                 priorDatasets = [
-                        [datasetId:'PNI', label:'Prior Net Income', classGroupEnumId:'EngGlcNetIncome',
+                        [datasetId:'PNI', label:'前期净收入', classGroupEnumId:'EngGlcNetIncome',
                                 backgroundColor:'rgba(240, 173, 78, 0.5)', borderColor:'rgba(240, 173, 78, 1.0)', pointStyle:'triangle', fill:false],
-                        [datasetId:'PNOI', label:'Prior Net Operating Income', classGroupEnumId:'EngGlcNetOpIncome',
+                        [datasetId:'PNOI', label:'前期净营业收入', classGroupEnumId:'EngGlcNetOpIncome',
                                 backgroundColor:'rgba(217, 83, 79, 0.5)', borderColor:'rgba(217, 83, 79, 1.0)', pointStyle:'triangle', fill:false] ]
             </script>
             <service-call name="mantle.party.TimeServices.find#PartyTimePeriodGroups" out-map="periodsOut"
@@ -210,12 +210,12 @@ along with this software (see the LICENSE.md file). If not, see
         <section name="CurrentAssetLiabilityChart" condition="organizationPartyId"><actions>
             <script>
                 datasets = [
-                        [label:'Cash', classes:['CASH_EQUIVALENT'], totalBasis:'Ending', stack:'Asset'],
-                        [label:'Inventory', classes:['INVENTORY_ASSET'], totalBasis:'Ending', stack:'Asset'],
-                        [label:'Receivable', classes:['ACCOUNTS_RECEIVABLE'], totalBasis:'Ending', stack:'Asset'],
-                        [label:'Other Cur Asset', classes:['LOANS_RECEIVABLE', 'PREPAID_EXPENSE', 'ACCRUED_REVENUE'], totalBasis:'Ending', stack:'Asset'],
-                        [label:'Payable', classes:['ACCOUNTS_PAYABLE'], totalBasis:'Ending', stack:'Liability'],
-                        [label:'Other Cur Liability', classes:['ACCRUED_EXPENSES', 'UNEARNED_REVENUE', 'THIRD_PARTY_HOLDINGS'], totalBasis:'Ending', stack:'Liability'],
+                        [label:'现金', classes:['CASH_EQUIVALENT'], totalBasis:'Ending', stack:'Asset'],
+                        [label:'库存', classes:['INVENTORY_ASSET'], totalBasis:'Ending', stack:'Asset'],
+                        [label:'应收款', classes:['ACCOUNTS_RECEIVABLE'], totalBasis:'Ending', stack:'Asset'],
+                        [label:'其它当前资产', classes:['LOANS_RECEIVABLE', 'PREPAID_EXPENSE', 'ACCRUED_REVENUE'], totalBasis:'Ending', stack:'Asset'],
+                        [label:'应付款', classes:['ACCOUNTS_PAYABLE'], totalBasis:'Ending', stack:'Liability'],
+                        [label:'其它当前负债', classes:['ACCRUED_EXPENSES', 'UNEARNED_REVENUE', 'THIRD_PARTY_HOLDINGS'], totalBasis:'Ending', stack:'Liability'],
                         [classGroupEnumId:'EngGlcNetIncome', type:'line', fill:false]
                 ]
             </script>
@@ -261,7 +261,7 @@ along with this software (see the LICENSE.md file). If not, see
                         [classGroupEnumId:'EngGlcNetAsset', totalBasis:'Ending', stack:'Asset'],
                         [classGroupEnumId:'EngGlcNetEquity', totalBasis:'Ending', stack:'LiabilityEquity'],
                         [classGroupEnumId:'EngGlcLiability', totalBasis:'Ending', stack:'LiabilityEquity'],
-                        [label:'Unbooked Net Income', classGroupEnumId:'EngGlcNetIncome', totalBasis:'Posted', stack:'LiabilityEquity'],
+                        [label:'未登记的净收益', classGroupEnumId:'EngGlcNetIncome', totalBasis:'Posted', stack:'LiabilityEquity'],
                         [classGroupEnumId:'EngGlcNetIncome', type:'line', fill:false]
                 ]
             </script>

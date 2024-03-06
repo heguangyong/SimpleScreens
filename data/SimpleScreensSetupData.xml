@@ -99,7 +99,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.Enumeration enumId="PostalAddress.DefaultCountry" description="Country to use as default in forms for postal addresses" enumTypeId="UserPreferenceKey"/>
     <moqui.basic.Enumeration enumId="CurrencyDefault" description="Currency Default" enumTypeId="UserPreferenceKey"/>
     <moqui.security.UserGroupPreference userGroupId="ALL_USERS" preferenceKey="TelecomNumber.DefaultCountryCode" preferenceValue="1"/>
-    <moqui.security.UserGroupPreference userGroupId="ALL_USERS" preferenceKey="PostalAddress.DefaultCountry" preferenceValue="USA"/>
+    <moqui.security.UserGroupPreference userGroupId="ALL_USERS" preferenceKey="PostalAddress.DefaultCountry" preferenceValue="CHN"/>
 
     <!-- ========================================== -->
     <!-- ========== Screen Documentation ========== -->
@@ -158,7 +158,7 @@ along with this software (see the LICENSE.md file). If not, see
         <fields positionSequence="0" positionIndex="6" fieldName="unpaidTotal"/>
     </moqui.screen.form.FormConfig>
     <moqui.screen.form.FormListFind formListFindId="AI_FI_AR_CUST_STMT" formConfigId="AI_FI_AR_CUST_STMT"
-            description="AR Customer Statement" orderByField="+invoiceDate"
+            description="应收帐款客户声明" orderByField="+invoiceDate"
             formLocation="component://SimpleScreens/screen/SimpleScreens/Accounting/Invoice/FindInvoice.xml.form_list$InvoiceList">
         <fields fieldName="statusId" fieldOperator="in" fieldValue="InvoiceInProcess,InvoiceFinalized,InvoiceSent,InvoiceAcked"/>
         <userGroups userGroupId="ALL_USERS"/>
@@ -295,7 +295,7 @@ along with this software (see the LICENSE.md file). If not, see
         <fields positionSequence="0" positionIndex="9" fieldName="credit"/>
     </moqui.screen.form.FormConfig>
     <moqui.screen.form.FormListFind formListFindId="AT_FTE_AR_CUST_LEDG" formConfigId="AT_FTE_AR_CUST_LEDG"
-            description="AR Customer Ledger" orderByField="-transactionDate,-acctgTransId,acctgTransEntrySeqId"
+            description="应收帐款客户分类账" orderByField="-transactionDate,-acctgTransId,acctgTransEntrySeqId"
             formLocation="component://SimpleScreens/screen/SimpleScreens/Accounting/Transaction/FindTransactionEntry.xml.form_list$TransactionEntryList">
         <fields fieldName="transactionDate" fieldPeriod="year" fieldPerOffset="0"/>
         <userGroups userGroupId="ALL_USERS"/>
