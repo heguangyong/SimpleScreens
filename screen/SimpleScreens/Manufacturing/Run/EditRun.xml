@@ -159,7 +159,7 @@ along with this software (see the LICENSE.md file). If not, see
                     <field name="partyId"><default-field title="Person"><drop-down allow-empty="true">
                         <dynamic-options transition="searchPartyList" server-search="true" min-length="2"/></drop-down></default-field></field>
                     <field name="roleTypeId"><default-field title="Role"><drop-down><option key="Worker" text="Worker"/>
-                        <option key="Manager" text="Manager"/><option key="_NA_" text="Not Applicable"/></drop-down></default-field></field>
+                        <option key="Manager" text="Manager"/><option key="_NA_" text="不可用"/></drop-down></default-field></field>
                     <field name="statusId" from="null"><default-field title="Status">
                         <widget-template-include location="component://webroot/template/screen/BasicWidgetTemplates.xml#statusDropDown">
                             <set field="statusTypeId" value="WorkEffortParty"/><set field="noCurrentSelectedKey" value="WeptAssigned"/></widget-template-include>
